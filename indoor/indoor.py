@@ -1,6 +1,6 @@
-Name = (input()).lower().strip()
+Name = (input("Message" )).lower().strip()
 
-print(Name)
+print(f"{Name}")
 
 
 
