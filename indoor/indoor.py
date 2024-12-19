@@ -1,6 +1,4 @@
-Name = (input("Message" )).lower().strip()
+Name = (input("Hi and welcome to Mcdonald, what would you like to get today? ")).lower().strip()
 
-print(f"{Name}")
-
-
+print(f"Sure, 1 {Name} coming up")
 
