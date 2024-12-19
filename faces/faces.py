@@ -4,7 +4,7 @@ def main():
     print (f"{emoji}")
 
 def convert(text):
-    txt_split =  text.replace(" :)", " 🙂") .replace(" :(", " ☹️")
+    txt_split =  text.replace(" :)", " 🙂") .replace(" :(", " 🙁")
     return txt_split
 
 
