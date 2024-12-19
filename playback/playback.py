@@ -1,4 +1,4 @@
-text = input("What would you like to eat: ")
+text = input()
 
 txt_split =  text.replace(" ", "....")
 
