@@ -1,2 +1,6 @@
-msg = input("Message")
-print (msg. lower())
+Name = (input()).lower().strip()
+
+print(Name)
+
+
+
