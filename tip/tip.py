@@ -7,17 +7,25 @@ def main():
 
 def dollars_to_float(d):
     # TODO
+    #First convert the $ to " " using replace() method and store it in a variable called  number
     number = d.replace("$", " ")
+    #Convert the input string to float and store it in a variable called float_number
     float_number = float(number)
+    #(Optional)Round the digit to it's nearest integer ex. 25.6274 => 25.6 or 25.63. Store you round number in a variable x
     x = round(float_number, 1)
+    #return float number, rounded and without dollar sign to main fucntion
     return x
 
 
 def percent_to_float(p):
     # TODO
+    #First convert the % to " " using replace() method and store it in a variable called  number
     number = p.replace("%", " ")
+    #Convert the input string to float and store it in a variable called float_number
     float_number = float(number)
+    #Divide digit by 100 to get the percentage
     y = float(float_number / 100)
+    #Return percentage
     return y
 
 main()
