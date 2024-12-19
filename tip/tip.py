@@ -7,13 +7,14 @@ def main():
 
 def dollars_to_float(d):
     # TODO
-    txt_split = d.replace("$", " ")
-    x = float(txt_split)
+    number = d.replace("$", " ")
+    x = round(number, 1)
     return x
 
 
 def percent_to_float(p):
     # TODO
+    
 
 
 main()
