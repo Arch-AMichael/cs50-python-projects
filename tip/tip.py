@@ -8,8 +8,8 @@ def main():
 def dollars_to_float(d):
     # TODO
     txt_split = d.replace("$", " ")
-     = float(txt_split)
-
+    x = float(txt_split)
+    return x
 
 
 def percent_to_float(p):
