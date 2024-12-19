@@ -1,5 +1,5 @@
 def main():
-    Inquiry = input()
+    Inquiry = input("Message")
     emoji = convert(Inquiry)
     print (f"{emoji}")
 
