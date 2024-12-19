@@ -8,14 +8,16 @@ def main():
 def dollars_to_float(d):
     # TODO
     number = d.replace("$", " ")
-    x = round(number, 1)
+    float_number = float(number)
+    x = round(float_number, 1)
     return x
 
 
 def percent_to_float(p):
     # TODO
-    number = d.replace("$", " ")
-    y = float(number / 100)
+    number = p.replace("$", " ")
+    float_number = float(number)
+    y = float_number(number / 100)
     return y
 
 main()
