@@ -7,7 +7,9 @@ def main():
 
 def dollars_to_float(d):
     # TODO
-    x = float(d)
+    txt_split = d.replace("$", " ")
+     = float(txt_split)
+
 
 
 def percent_to_float(p):
