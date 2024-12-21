@@ -13,7 +13,8 @@ def check(x):
         print (f"image/png")
     elif ".txt" in x:
         print (f"text/plain)
-    else "gif" in x:
+    elif "" in x:
         print (f"image/gif")
+    else:
 
 
