@@ -1,5 +1,6 @@
 #Input
-Q_of_life = input("What is the greaat question of life ")
+Q_of_life1 = input("What is the greaat question of life ").lower()
+Q_of_life = Q_of_life1.replace(" ", "")
 
 if Q_of_life == "42":
     print("Yes")
