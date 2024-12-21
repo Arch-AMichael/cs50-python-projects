@@ -13,3 +13,6 @@ def main():
 
 
 main()
+
+
+# New method - startswith()In Python, you can use the startswith() method to check if a string starts with a specific prefix.
