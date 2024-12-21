@@ -6,9 +6,9 @@ def main():
 
 def check(x):
     if "gif" in x
-        print (f"image/gif")
-    elif "gif" in x
-        print (f"image/gif")
+        print (f"image/gif"):
+    elif "jpeg" in x or ".jpg" in x
+        print (f"image/jpeg")
     elif "gif" in x
         print (f"image/gif")
     elif "gif" in x
