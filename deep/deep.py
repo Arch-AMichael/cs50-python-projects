@@ -1,12 +1,12 @@
 #Input
-Q_of_life1 = input("What is the greaat question of life ").lower()
-Q_of_life = Q_of_life1.replace(" f", "f")
+def main():
+    Q_of_life = input("What is the greaat question of life ").strip().lower()
+    Q_of_life = Q_of_life.replace("-","").replace(" ","")
 
-if Q_of_life == "42":
-    print("Yes")
-elif Q_of_life == "forty-two":
-    print("Yes")
-elif Q_of_life == "forty two":
-    print("Yes")
-else:
-    print ("No")
+    if Q_of_life == "42" or "forty two":
+        print("Yes")
+
+    else:
+        print ("No")
+
+main()
