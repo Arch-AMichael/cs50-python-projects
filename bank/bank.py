@@ -1,5 +1,5 @@
 def main():
-    greeting = input("Greeting: ").strip().lower()
+    greeting = input("Greeting:  ").strip().lower()
 
     if "hello" in greeting:
         print(f"$0")
@@ -15,4 +15,8 @@ def main():
 main()
 
 
-# New method - startswith()In Python, you can use the startswith() method to check if a string starts with a specific prefix.
+# New method startswith()
+# In Python, you can use the startswith() method to check if a string starts with a specific prefix.
+
+#OR use Indexing
+#elif "h" in greeting [0]
