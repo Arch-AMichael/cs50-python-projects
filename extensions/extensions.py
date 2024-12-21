@@ -6,18 +6,18 @@ def main():
 
 def check(x):
     if ".gif" in x:
-        print (f"image/gif")
+        return (f"image/gif")
     elif ".jpeg" in x or ".jpg" in x:
-        print (f"image/jpeg")
+        return (f"image/jpeg")
     elif ".png" in x:
-        print (f"image/png")
+        return (f"image/png")
     elif ".txt" in x:
-        print (f"text/plain")
+        return (f"text/plain")
     elif ".pdf" in x:
-        print (f"application/pdf")
+        return (f"application/pdf")
     elif ".zip" in x:
-        print (f"application/zip")
+        return (f"application/zip")
     else:
-        print(f"application/octet-stream")
+        return(f"application/octet-stream")
 
 main()
