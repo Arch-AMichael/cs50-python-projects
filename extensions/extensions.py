@@ -1,7 +1,7 @@
 def main():
-    answer = input("File name: ")
+    answer = input("File name: ").strip().lower()
     extension = check(answer)
-    print(f"{extension})
+    print(f"{extension}")
 
 
 def check(x):
@@ -12,9 +12,12 @@ def check(x):
     elif ".png" in x:
         print (f"image/png")
     elif ".txt" in x:
-        print (f"text/plain)
-    elif "" in x:
-        print (f"image/gif")
+        print (f"text/plain")
+    elif ".pdf" in x:
+        print (f"application/pdf")
+    elif ".zip" in x:
+        print (f"application/zip")
     else:
+        print(f"application/octet-stream")
 
-
+main()
