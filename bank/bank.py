@@ -4,7 +4,7 @@ def main():
     if "hello" in greeting:
         print(f"$0")
 
-    elif greeting.startwith("h"):
+    elif greeting.startswith("h"):
         print(f"$20")
 
     else:
