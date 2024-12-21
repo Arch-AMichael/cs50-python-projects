@@ -5,7 +5,6 @@ def main():
 
     if Q_of_life == "42" or "forty two":
         print("Yes")
-
     else:
         print ("No")
 
