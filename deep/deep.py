@@ -18,4 +18,4 @@ main()
 #use
 # Q_of_life = Q_of_life.replace("-","")
 
-# that way any forty-two will become fortytwo. This is applicable to spaces as well
+# that way any forty-two will become fortytwo. This is applicable to spaces as we
