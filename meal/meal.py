@@ -1,15 +1,19 @@
+
+## Get the input
 def main():
     time = input("What is the time? ")
+# Turn to a list
     hours, minutes = time.split(":")
+#Put the list into a function
     newtime = convert(hours, (float(minutes)))
     checkhour = newtime[0]
 
     if checkhour == "7" or  checkhour == "8":
-        return ("Breakfast Time")
+        print ("Breakfast Time")
     elif checkhour == "12" or checkhour == "13":
-        return ("Lunch Time")
+        print ("Lunch Time")
     elif checkhour == "18" or checkhour == "19":
-        return ("Dinner Time")
+        print ("Dinner Time")
     else:
         return (" ")
 
