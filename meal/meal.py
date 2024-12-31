@@ -1,24 +1,19 @@
 def main():
     time = input("What is the time? ")
-    hours, minutes = time.split(":")
-    newtime = convert(hours, (float(minutes)))
-    checkhour = newtime[0]
-
-    if checkhour == "7" or  checkhour == "8":
-        print ("Breakfast Time")
-    elif checkhour == "12" or checkhour == "13":
-        print ("Lunch Time")
-    elif checkhour == "18" or checkhour == "19":
-        print ("Dinner Time")
-    else:
-        return (" ")
+    newtime = convert(time)
 
 
+    
+    if 7 <= newtime <= 8:
+        print("Breakfast Time")
+    elif 12 <= newtime <= 13:
+        print("Lunch Time")
+    elif 18 <= newtime <= 19:
+        print("Dinner Time")
 
-def convert(hour, minute):
-    caculation = hour + str(minute / 60)
-    return (caculation)
-
+def convert(time):
+    hours, minutes = map(int, time.split(":"))
+    return hours + minutes / 60
 
 if __name__ == "__main__":
     main()

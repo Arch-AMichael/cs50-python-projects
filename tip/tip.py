@@ -34,26 +34,3 @@ main()
 
 
 
-def main():
-    time = input("What is the time?")
-    hours, minutes = time.split(":")
-    newtime = convert(hours), (float(minutes))
-
-
-def convert(hours, minutes):
-    caculation = minutes / 60
-
-   if hour == "7" or  hour == "8":
-        return ("Breakfast Time")
-    elif hour == "12" or  hour == "13":
-        return ("Lunch Time")
-    elif hour == "18" or  hour == "19":
-        return ("Dinner Time")
-    else:
-        return (" ")
-)
-
-
-
-if __name__ == "__main__":
-    main()
