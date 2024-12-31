@@ -4,11 +4,11 @@ def main():
     newtime = convert(hours, (float(minutes)))
     checkhour = newtime[0]
 
-    if checkhour == "7" or  hour == "8":
+    if checkhour == "7" or  checkhour == "8":
         return ("Breakfast Time")
-    elif checkhour == "12" or  hour == "13":
+    elif checkhour == "12" or checkhour == "13":
         return ("Lunch Time")
-    elif checkhour == "18" or  hour == "19":
+    elif checkhour == "18" or checkhour == "19":
         return ("Dinner Time")
     else:
         return (" ")
@@ -16,7 +16,7 @@ def main():
 
 
 def convert(hour, minute):
-    caculation = hour + minute / 60
+    caculation = hour + str(minute / 60)
     return (caculation)
 
 
