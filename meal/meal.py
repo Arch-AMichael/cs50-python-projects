@@ -4,8 +4,9 @@ def main():
     time = input("What is the time? ")
 # Turn to a list
     hours, minutes = time.split(":")
-#Put the list into a function
+#Put the list into convert function
     newtime = convert(hours, (float(minutes)))
+
     checkhour = newtime[0]
 
     if checkhour == "7" or  checkhour == "8":
@@ -18,8 +19,9 @@ def main():
         return (" ")
 
 
-
+# Takes the list
 def convert(hour, minute):
+# Turn into 7.5 format
     caculation = hour + str(minute / 60)
     return (caculation)
 
