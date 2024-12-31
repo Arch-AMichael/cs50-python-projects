@@ -1,9 +1,10 @@
 def main():
     time = input("What is the time?")
-    newtime = convert int(time)
+    hours, minutes = time.split(":")
+    newtime = convert(float(hours), float(minutes))
 
 
-def convert(time):
+def convert(hours, minutes):
 
 
 
