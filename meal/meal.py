@@ -2,12 +2,13 @@ def main():
     time = input("What is the time? ")
     hours, minutes = time.split(":")
     newtime = convert(hours), (float(minutes))
-        
-   if hour == "7" or  hour == "8":
+    checkhour = newtime[0]
+
+    if checkhour == "7" or  hour == "8":
         return ("Breakfast Time")
-    elif hour == "12" or  hour == "13":
+    elif checkhour == "12" or  hour == "13":
         return ("Lunch Time")
-    elif hour == "18" or  hour == "19":
+    elif checkhour == "18" or  hour == "19":
         return ("Dinner Time")
     else:
         return (" ")
