@@ -17,7 +17,7 @@ def main():
 
 def convert(hour, minute):
     caculation = hour + minute / 60
-        return (caculation)
+    return (caculation)
 
 
 if __name__ == "__main__":
