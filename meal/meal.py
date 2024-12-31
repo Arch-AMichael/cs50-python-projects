@@ -10,7 +10,7 @@ def convert(hour):
         return ("Breakfast Time")
     elif hour == "12" or  hour == "13":
         return ("Lunch Time")
-    elif hour == "7" or  hour == "19":
+    elif hour == "18" or  hour == "19":
         return ("Dinner Time")
     else:
         return (" ")
