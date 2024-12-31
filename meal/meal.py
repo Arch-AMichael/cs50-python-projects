@@ -6,11 +6,11 @@ def main():
 
 
 def convert(hour):
-    if hour == "7" or "8":
+    if hour == "7" or  hour == "8":
         return ("Breakfast Time")
-    elif hour == "12" or "13":
+    elif hour == "12" or  hour == "13":
         return ("Lunch Time")
-    elif hour == "7" or "19":
+    elif hour == "7" or  hour == "19":
         return ("Dinner Time")
     else:
         return (" ")
