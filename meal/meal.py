@@ -3,7 +3,6 @@ def main():
     newtime = convert(time)
 
 
-    
     if 7 <= newtime <= 8:
         print("Breakfast Time")
     elif 12 <= newtime <= 13:
