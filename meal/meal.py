@@ -3,11 +3,11 @@ def main():
     newtime = convert(time)
 
 
-    if 7 <= newtime <= 8:
+    if newtime == 7 or newtime == 8:
         print("Breakfast Time")
-    elif 12 <= newtime <= 13:
+    elif newtime == 12 or newtime == 13:
         print("Lunch Time")
-    elif 18 <= newtime <= 19:
+    elif newtime == 18 or newtime == 19:
         print("Dinner Time")
 
 def convert(time):
