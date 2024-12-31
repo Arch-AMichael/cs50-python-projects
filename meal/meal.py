@@ -4,9 +4,7 @@ def main():
     newtime = convert(hours), (float(minutes))
 
 
-def convert(hours, minutes):
-    caculation = minutes / 60
-    
+def convert(hours):
     if hours = "7" or "8":
         return ("Breakfast Time")
     if hours = "12" or "13":
