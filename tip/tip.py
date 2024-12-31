@@ -43,12 +43,15 @@ def main():
 def convert(hours, minutes):
     caculation = minutes / 60
 
-    if hours = "7" or "8":
+   if hour == "7" or  hour == "8":
         return ("Breakfast Time")
-    if hours = "12" or "13":
+    elif hour == "12" or  hour == "13":
         return ("Lunch Time")
-    if hours = "7" or "19":
-        return ("Breakfast Time")
+    elif hour == "18" or  hour == "19":
+        return ("Dinner Time")
+    else:
+        return (" ")
+)
 
 
 
