@@ -1,7 +1,7 @@
 def main():
     time = input("What is the time? ")
     hours, minutes = time.split(":")
-    newtime = convert(hours), (float(minutes))
+    newtime = convert(hours, (float(minutes)))
     checkhour = newtime[0]
 
     if checkhour == "7" or  hour == "8":
