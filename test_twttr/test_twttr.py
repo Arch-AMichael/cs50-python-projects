@@ -9,7 +9,7 @@ def test_vowels():
 
 
 def test_numbers():
-    assert shorten('3faog') == 'fg'
+    assert shorten('1234eo') == '1234'
 
 def test_punctuation():
-    assert shorten('$grammer$') == 'grmmr'
+    assert shorten(',;""') == ',;""'

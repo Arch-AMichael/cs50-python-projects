@@ -13,7 +13,7 @@ def main():
 def shorten(sentence):
     result = ""
     for word in sentence:
-        if word.isalpha() and word not in ['A','E','I','O','U','a','e','i','o','u']:
+        if word not in ['A','E','I','O','U','a','e','i','o','u']:
             result += word
     return result
 
