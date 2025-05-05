@@ -11,10 +11,10 @@ def main():
 
 
 
-def shorten(string):
+def shorten(sentance):
     result = ""
-    for word in string:
-        if isalpha(word) and word not in word string.punctuation and not in ['A','E','I','O','U','a','e','i','o','u']:
+    for word in sentance:
+        if isalpha(word) and word not in string.punctuation and word not in ['A','E','I','O','U','a','e','i','o','u']:
             result += word
     return result
 
