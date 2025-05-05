@@ -7,16 +7,20 @@
 # and treat the user’s greeting case-insensitively
 
 def main():
-    greeting = input("Greeting:  ").strip().lower()
+    print(value(input("Greeting:  ").strip().lower()))
+
+
+
+def value(greeting):
 
     if "hello" in greeting:
-        print(f"$0")
+        return(f"$0")
 
     elif greeting.startswith("h"):
-        print(f"$20")
+        return(f"$20")
 
     else:
-        print(f"$100")
+        return(f"$100")
 
 
 if __name__ == "__main__":
