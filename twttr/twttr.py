@@ -14,7 +14,7 @@ def main():
 def shorten(sentance):
     result = ""
     for word in sentance:
-        if isalpha(word) and word not in string.punctuation and word not in ['A','E','I','O','U','a','e','i','o','u']:
+        if word.isalpha() and word not in string.punctuation and word not in ['A','E','I','O','U','a','e','i','o','u']:
             result += word
     return result
 
