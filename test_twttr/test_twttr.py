@@ -6,3 +6,4 @@ def test_vowels():
     assert shorten('Antonio') == 'ntn'
     assert shorten('Lumbag') == 'Lmbg'
     assert shorten('Michael') == 'Mchl'
+    assert shorten('3faog') == '3fg'

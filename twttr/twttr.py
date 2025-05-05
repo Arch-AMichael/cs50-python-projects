@@ -13,7 +13,7 @@ def main():
 def shorten(string):
     result = ""
     for word in string:
-        if not word in ['A','E','I','O','U','a','e','i','o','u']:
+        if isalpha(word) and word not in ['A','E','I','O','U','a','e','i','o','u']:
             result += word
     return result
 
