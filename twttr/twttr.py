@@ -2,6 +2,7 @@
 # implement a program that prompts the user for a str of text
 # and then outputs that same text but with all vowels (A, E, I, O, and U) omitted,
 # whether inputted in uppercase or lowercase.
+import string
 
 def main():
     string = shorten(input('Input: '))
@@ -13,7 +14,7 @@ def main():
 def shorten(string):
     result = ""
     for word in string:
-        if isalpha(word) and word not in ['A','E','I','O','U','a','e','i','o','u']:
+        if isalpha(word) and word not in word string.punctuation and not in ['A','E','I','O','U','a','e','i','o','u']:
             result += word
     return result
 
