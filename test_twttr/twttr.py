@@ -17,7 +17,7 @@ def shorten(string):
             result += word
     return result
 
-
-main()
+if __name__ == "__main__":
+    main()
 
 
