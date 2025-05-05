@@ -13,14 +13,14 @@ def main():
 
 def value(greeting):
 
-    if "hello" in greeting:
-        return(f"$0")
+    if greeting.startswith("hello"):
+        return("$0")
 
     elif greeting.startswith("h"):
-        return(f"$20")
+        return("$20")
 
     else:
-        return(f"$100")
+        return("$100")
 
 
 if __name__ == "__main__":
