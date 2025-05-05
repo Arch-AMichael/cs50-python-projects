@@ -7,3 +7,4 @@ def test_vowels():
     assert shorten('Lumbag') == 'Lmbg'
     assert shorten('Michael') == 'Mchl'
     assert shorten('3faog') == '3fg'
+    assert shorten('$grammer$') == '$grmmr$'
