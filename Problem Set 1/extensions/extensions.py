@@ -39,4 +39,3 @@ main()
 #       proanswer = get_extension(answer)
 #       extension = check(proanswer)
 #       print(extension)
-
